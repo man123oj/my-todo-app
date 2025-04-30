@@ -1,0 +1,38 @@
+.app {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 70%;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.todo-item {
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-item span {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
